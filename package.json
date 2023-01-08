@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "description": "Exercise to job. REST api client application",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "help": "node dist/help",
+    "exec": "node dist/index.js"
+  },
+  "author": "maxikham@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^8.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/superagent": "^4.1.16",
+    "ts-node": "^10.9.1"
+  }
+}
